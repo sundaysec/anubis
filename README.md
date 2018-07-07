@@ -4,5 +4,5 @@
 
 ### Image Example
 
-[!alt text](https://exekias.me/wp-content/uploads/2011/08/login.png)
+![alt text](https://exekias.me/wp-content/uploads/2011/08/login.png)
 [___Carlos Pérez-Aradros Herce___](https://exekias.me/2011/08/28/zentyal-new-feature-captive-portal/) Example 1
