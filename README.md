@@ -16,8 +16,9 @@ Image Example
 How Captive Hotspot works
 ==
 
-![alt text](http://www.zeroshell.net/hotspot-router/captive-portal-network-diagram.jpg)
-WIFI hotspot with [Zeroshell](http://www.zeroshell.net/hotspot-router/) captive hotspot
+![alt text](https://github.com/philemonsunday/anubis/blob/master/src/images/netflow.png?raw=true)
+
+Captive Wifi Hotspot network structure
 
 Installing anubis
 ==
