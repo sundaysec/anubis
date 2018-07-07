@@ -26,6 +26,6 @@ Clone the anubis project files
 `git clone https://github.com/philemonsunday/anubis.git`
 
 Navigate to the cloned folder
-`cd anubis`
+`cd anubis`</br>
 Run the installer to check dependencies
 ``
