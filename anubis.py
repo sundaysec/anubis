@@ -23,16 +23,16 @@ cwd = os.getcwd()
 
 #confirm dependencies
 #For netdiscover
-if os.path_isdir("/usr/share/doc/netdiscover"):
-	pass
-else:
-	subprocess.Popen("apt install netdiscover").wait()
+# if os.path_isdir("/usr/share/doc/netdiscover"):
+# 	pass
+# else:
+# 	subprocess.Popen("apt install netdiscover").wait()
 	
 # For macchanger
-if os.path_isfile("/usr/bin/macchanger"):
-		pass
-	else:
-		subprocess.Popen("apt install macchanger").wait()
+# if os.path_isfile("/usr/bin/macchanger"):
+# 		pass
+# 	else:
+# 		subprocess.Popen("apt install macchanger").wait()
 
 #file manupulation function
 def man():
