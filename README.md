@@ -13,12 +13,15 @@ Image Example
 [___Carlos Pérez-Aradros Herce___](https://exekias.me/2011/08/28/zentyal-new-feature-captive-portal/)  Captive hotspot
 
 
-How Captive Hotspot works
+How Anubis works
 ==
 
 ![alt text](https://github.com/philemonsunday/anubis/blob/master/src/images/netflow.png?raw=true)
 
-Captive Wifi Hotspot network structure
+Captive Wifi Hotspot network structure with the attacker standby
+The captive hotspot accepts traffic only from the registered devices
+anubis scans for all the devices connected on the same network
+It then tries to change the device IDS into the identified deviced IDs
 
 Installing anubis
 ==
