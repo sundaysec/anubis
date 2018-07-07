@@ -13,7 +13,7 @@ Image Example
 [___Carlos Pérez-Aradros Herce___](https://exekias.me/2011/08/28/zentyal-new-feature-captive-portal/)  Captive hotspot
 
 
-How it works
+How Captive Hotspot works
 ==
 
 ![alt text](http://www.zeroshell.net/hotspot-router/captive-portal-network-diagram.jpg)</br>
