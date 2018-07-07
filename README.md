@@ -6,4 +6,9 @@
 
 ![alt text](https://exekias.me/wp-content/uploads/2011/08/login.png)</br>
 
-[___Carlos Pérez-Aradros Herce___](https://exekias.me/2011/08/28/zentyal-new-feature-captive-portal/) Example 1
+[___Carlos Pérez-Aradros Herce___](https://exekias.me/2011/08/28/zentyal-new-feature-captive-portal/)  Captive hotspot
+
+
+### How it works
+
+![alt text](http://www.zeroshell.net/hotspot-router/captive-portal-network-diagram.jpg)
