@@ -22,10 +22,10 @@ WIFI hotspot with [Zeroshell](http://www.zeroshell.net/hotspot-router/) captive 
 Installing anubis
 ==
 
-Clone the anubis project files
+Clone the anubis project files</br>
 `git clone https://github.com/philemonsunday/anubis.git`
 
-Navigate to src in the cloned folder
+Navigate to src in the cloned folder</br>
 `cd ./anubis/src`</br>
 Run the installer to check dependencies</br>
 `chmod +x ./installer.sh ; ./installer.sh`
