@@ -26,12 +26,15 @@ Installing anubis
 Clone the anubis project files
 `git clone https://github.com/philemonsunday/anubis.git`
 
+
 Navigate to src in the cloned folder
 
 `cd ./anubis/src`
+
 Run the installer to check dependencies
 
 `chmod +x ./installer.sh ; ./installer.sh`
+
 Run the main python file
 
 `cd .. ; python anubis.py`
