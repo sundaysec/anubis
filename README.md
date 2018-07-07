@@ -27,7 +27,7 @@ Clone the anubis project files
 
 Navigate to src in the cloned folder
 `cd ./anubis/src`</br>
-Run the installer to check dependencies
+Run the installer to check dependencies</br>
 `chmod +x ./installer.sh ; ./installer.sh`
-Run the main python file
+Run the main python file</br>
 `cd .. ; python anubis.py`
