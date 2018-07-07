@@ -6,7 +6,7 @@ Many institutions use this type of authentication in the WIFI as a 'sure' means 
 
 
 Image Example
-====
+=====
 
 ![alt text](https://exekias.me/wp-content/uploads/2011/08/login.png)</br>
 
@@ -14,13 +14,13 @@ Image Example
 
 
 How it works
-====
+=====
 
 ![alt text](http://www.zeroshell.net/hotspot-router/captive-portal-network-diagram.jpg)</br>
 WIFI hotspot with [Zeroshell](http://www.zeroshell.net/hotspot-router/) captive hotspot
 
 Installing anubis
-====
+=====
 
 Clone the anubis project files
 `git clone https://github.com/philemonsunday/anubis.git`
