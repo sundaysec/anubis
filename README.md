@@ -28,7 +28,7 @@ Installing anubis
 
 Clone the anubis project files
 
-`git clone https://github.com/philemonsunday/anubis.git`
+`git clone https://github.com/sundaysec/anubis.git`
 
 
 Navigate to src in the cloned folder
