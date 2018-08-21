@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
  # DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
  #                    Version 2, December 2004
  #
- # Copyright (C) 2018 Sunday Philemon <philemonsunday202@gmail.com>
+ # Copyright (C) 2018 Sunday Philemon philemonsunday202@gmail.com
  #
  # Everyone is permitted to copy and distribute verbatim or modified
  # copies of this license document, and changing it is allowed as long
@@ -12,46 +14,32 @@
  #
  #  0. You just DO WHAT THE FUCK YOU WANT TO.
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 import os
 from src import banner
 import sys
 import subprocess
+import argparse as arg
+import argcomplete
+
 #vars
 cwd = os.getcwd()
+host = os.platform()
 
-#confirm dependencies
-#For netdiscover
-# if os.path_isdir("/usr/share/doc/netdiscover"):
-# 	pass
-# else:
-# 	subprocess.Popen("apt install netdiscover").wait()
-	
-# For macchanger
-# if os.path_isfile("/usr/bin/macchanger"):
-# 		pass
-# 	else:
-# 		subprocess.Popen("apt install macchanger").wait()
+#arguments
+parser = arg.ArgumentParser()
+parser.add_argument("-i", "--interface", help="The active interface used (Default:wlan0)", default="wlan0")
+parser.add_argument("-r", "--range", help="The range of scan(Default:24)", default=24)
 
-#file manupulation function
-def man():
-	with open(cwd + "/src/dump.txt") as data:
+#For argument autocomplete
+argcomplete.autocomplete(parser)
+q = parser.parse_args()
+
+#Simple oop
+class anubis:
+	def __init__(self, interface, range):
+		self.iface = interface
+		self.rng = range
+
+	def scan(self):
 		pass
-		
-		
-	
-def main():
-    try:
-        banner.burn()
-        #to create the dump.txt file
-        os.system("netdiscover > " + cwd + "/src/dump.txt")
-    except:
-        Exception
-			#Print("Ok Goodbye")
-			
-			
-			
-			
-if __name__ == '__main__':
-    main()
+#Continue
