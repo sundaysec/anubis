@@ -1,0 +1,3 @@
+[submodule "core/SpoofMAC"]
+	path = core/SpoofMAC
+	url = https://github.com/feross/SpoofMAC.git
