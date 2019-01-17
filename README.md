@@ -1,8 +1,5 @@
 # Anubis Captive Wifi Hotspot bypass
 
->Unfortunately sundaysec is experiencing <b>Kernel Panic</b> called examinations...
->Will commit soon :)
-
 [A Web page used on public-access networks that require a user to view and interact with before being granted access to the public network. Captive portals are widely used by businesses that offer free Wi-Fi hotspots to Internet users. Usually a captive portal requires users to read and accept the business' acceptable use policy (AUP).](https://www.webopedia.com/TERM/C/captive_portal.html)
 
 Many institutions use this type of authentication in the WIFI as a 'sure' means of preventing unauthorised access.
@@ -31,17 +28,16 @@ Installing anubis
 
 Clone the anubis project files
 
-`git clone https://github.com/sundaysec/anubis.git`
+`git clone --recursive https://github.com/sundaysec/anubis.git`
 
 
-Navigate to src in the cloned folder
+Navigate to the cloned folder
 
-`cd ./anubis/src`
+`cd ./anubis/`
 
-Run the installer to check dependencies
-
+Run the installer
 `chmod +x ./installer.sh ; ./installer.sh`
 
-Run the main python file
+Run anubis
 
-`cd .. ; python anubis.py`
+`python anubis.py`

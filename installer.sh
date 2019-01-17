@@ -50,8 +50,16 @@ else
     py3=False
 fi
 
+#Install Pip for python3
+sudo apt-get install python3-pip -y
+if [ $? -eq 0 ]; then
+    echo "${green}[✔]Pip3 successfully installed${normal}"
+else
+    echo "${red}[✘]Pip3 has not installed${normal}"
+fi
+
 #Check internet connection
-# Can also use ping http://www.msftncsi.com/ncsi.txt
+# Alt ping http://www.msftncsi.com/ncsi.txt
 wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; then
