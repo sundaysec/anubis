@@ -42,8 +42,7 @@ Install dependencies
 `pip install -r requirements.txt`
 
 Run the installer
-`chmod +x ./installer.sh ; ./installer.sh`
-
+`pip install -r requirements.txt`
 Run anubis
 
 `python anubis.py`
