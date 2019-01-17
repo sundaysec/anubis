@@ -1,5 +1,8 @@
 # Anubis Captive Wifi Hotspot bypass
 
+Captive Portal
+==
+
 [A Web page used on public-access networks that require a user to view and interact with before being granted access to the public network. Captive portals are widely used by businesses that offer free Wi-Fi hotspots to Internet users. Usually a captive portal requires users to read and accept the business' acceptable use policy (AUP).](https://www.webopedia.com/TERM/C/captive_portal.html)
 
 Many institutions use this type of authentication in the WIFI as a 'sure' means of preventing unauthorised access.
@@ -34,6 +37,9 @@ Clone the anubis project files
 Navigate to the cloned folder
 
 `cd ./anubis/`
+
+Install dependencies
+`pip install -r requirements.txt`
 
 Run the installer
 `chmod +x ./installer.sh ; ./installer.sh`
